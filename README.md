@@ -13,7 +13,7 @@ pip install pypdf
 ## Usage
 
 ```bash
-python pdf-chunker.py <input.pdf> [-o OUT_DIR] [-m MAX_MB]
+python pdf-chunker.py [-o OUT_DIR] [-m MAX_MB] <input.pdf>
 ```
 
 - `-o`, `--out-dir`: output directory (default: next to the input)
